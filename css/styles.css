@@ -1,0 +1,218 @@
+/* цвет основного текста (р) color:  #757575;
+цвет заголовков и ссылок #212121;
+цвет фона бади #FFFFFF
+цвет ховера и эффектов #2196F3
+цвет футера background: #2F303A;
+цвет текста в футере (заголовки - color: #FFFFFF;
+цвет имейла и телефона в футере - color: rgba(255, 255, 255, 0.6);
+цвет копирайта color: rgba(255, 255, 255, 0.4);
+
+
+var(--main-bg-color)  #FFFFFF;
+ var(--main-txt-color) #757575 ;
+
+ */
+
+:root {
+  --main-bg-color: #ffffff;
+  --main-txt-color: #757575;
+  --h123-link-color: #212121;
+  --hover-focus-color: #2196f3;
+  --footer-bg-color: #2f303a;
+}
+
+body {
+  font-size: 14px;
+  width: 1600px;
+  background: var(--main-bg-color);
+  font-family: Roboto, sans-serif;
+}
+
+.logo {
+  color: var(--hover-focus-color);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  width: 153px;
+  height: 31px;
+  left: 200px;
+  top: 24px;
+}
+
+.studio {
+  color: #212121;
+}
+
+.efect-sol {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  background-color: var(--hover-focus-color);
+  color: var(--main-bg-color);
+}
+.contacts {
+    list-style: none;
+}
+.header-contact {
+  color: var(--main-txt-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--hover-focus-color);
+  font-style: normal;
+}
+
+a {
+    
+  color: var(--h123-link-color);
+  list-style: none;
+  text-decoration: none;
+}
+.nav-option:hover,
+.nav-option:focus {
+  color: var(--hover-focus-color);
+}
+
+.order-text {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-left: 60px;
+  margin-left: 700px;
+  color: var(--main-bg-color);
+  background: var(--hover-focus-color);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+.occupation {
+  font-size: 36px;
+}
+
+.team-section {
+  background: #f5f4fa;
+}
+
+footer {
+  background: var(--footer-bg-color);
+}
+
+p {
+  color: var(--main-txt-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.site-nav {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    list-style: none;
+}
+
+.list {
+    list-style: none;
+}
+h1,
+h2,
+h3 {
+  color: var(--h123-link-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  font-family: Roboto;
+  background-color: var(--hover-focus-color);
+}
+
+.filter-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.blue-text:hover {
+  background-color: var(--hover-focus-color);
+  line-height: 1.55;
+}
+
+.blue-text {
+  width: 380px;
+  text-align: left;
+}
+.subscribe {
+  color: var(--main-bg-color);
+  text-transform: uppercase;
+}
+
+.studio-footer {
+  color: var(--main-bg-color);
+}
+
+.address {
+  color: var(--main-bg-color);
+  font-size: 14px;
+  font-style: normal;
+}
+
+.tel-email {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.join {
+  color: var(--main-bg-color);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.portfolio:hover,
+.portfolio:focus,
+.portfolio:active {
+  color: var(--hover-focus-color);
+  text-decoration: underline;
+}
+
+.products-white {
+  color: var(--main-bg-color);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  width: 380px;
+  height: 70px;
+  line-height: 1.1;
+  text-align: center;
+  padding-top: 35px;
+  margin: 0px;
+}
+.copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
