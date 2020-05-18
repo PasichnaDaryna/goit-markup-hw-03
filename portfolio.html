@@ -12,35 +12,39 @@
   </head>
   <body>
     <!--ШАПКА сайта-->
-    <header>
+    <header class="page-header">
+      <nav  class="container main-nav">
         <a href="./index.html">
           <span class="logo"
             >Web
             <span class="studio">Studio</span>
           </span>
         </a>
-        <nav>
+        
           <ul class="site-nav">
-            <li><a class="nav-option" href="./index.html">Студия</a></li>
-            <li><a class="nav-option" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="nav-option" href="">Контакты</a></li>
+            <li class="item-nav"><a class="nav-option" href="./index.html">Студия</a></li>
+            <li class="item-nav"><a class="nav-option" href="./portfolio.html">Портфолио</a></li>
+            <li class="item-nav"><a class="nav-option" href="">Контакты</a></li>
           </ul>
-        </nav>
+        
         <ul class="contacts">
-          <li>
-            <a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="header-contact">
+            <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
-          <li>
-            <a class="header-contact" href="mailto:info@devstudio.com"
+          <li class="header-contact">
+            <a class="contact-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
         </ul>
+      </nav>
       </header>
 
     <main>
+      
+      <div class="container-port">
       <section>
-        <ul class="list">
+        <ul class="list-buttons">
           <!--radio button-->
           <li>
             <button class="filter-button" type="button">Все</button>
@@ -60,79 +64,81 @@
           </li>
         </ul>
 
-        <ul class="list">
-          <li>
-            <a href="">
-              <p class="blue-text">
-                Технокряк это современная <br />
-                площадка распространения <br />
-                коронавируса. Компании <br />
-                используют эту платформу для <br />
-                цифрового шпионажа и атак на <br />
-                защищённые сервера конкурентов.
-              </p>
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/sport.jpg" width="380" alt="Sport" />
-              <h3>Постер New Orlean vs Golden Stars</h3>
-              <p>Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/restaurant.jpg" width="380" alt="Seafood" />
-              <h3>Ресторан Seafood</h3>
-              <p>Приложение</p></a
-            >
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/headset.jpg" width="380" alt="headset" />
-              <h3>Проект Prime</h3>
-              <p>Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/boxes.jpg" width="380" alt="boxes" />
-              <h3>Проект Boxes</h3>
-              <p>Приложение</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/screen.jpg" width="380" alt="screen" />
-              <h3>Inspiration has no Borders</h3>
-              <p>Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/img7.jpg" width="380" alt="magazines" />
-              <h3>Издание Limited Edition</h3>
-              <p>Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/project-lab.jpg" width="380" alt="project-lab" />
-              <h3>Проект LAB</h3>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./img/lap-top.jpg" width="380" alt="lap-top" />
-              <h3>Growing Business</h3>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-        </ul>
-      </section>
+          <ul class="list-portfolio">
+            <li class="portfolio-item">
+              <a class="first-item" href="">
+                <p class="blue-text">
+                  Технокряк это современная <br />
+                  площадка распространения <br />
+                  коронавируса. Компании <br />
+                  используют эту платформу для <br />
+                  цифрового шпионажа и атак на <br />
+                  защищённые сервера конкурентов.
+                </p>
+                <h3 class="portfolio-heading">Технокряк</h3>
+                <p class="port-text">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href=""
+                ><img src="./img/sport.jpg" width="380" alt="Sport" />
+                <h3  class="portfolio-heading">Постер New Orlean vs Golden Stars</h3>
+                <p class="port-text">Дизайн</p></a
+              >
+            </li>
+            <li class="portfolio-item">
+              <a href=""
+                ><img src="./img/restaurant.jpg" width="380" alt="Seafood" />
+                <h3  class="portfolio-heading">Ресторан Seafood</h3>
+                <p class="port-text">Приложение</p></a
+              >
+            </li>
+            <li class="portfolio-item">
+              <a href=""
+                ><img src="./img/headset.jpg" width="380" alt="headset" />
+                <h3  class="portfolio-heading">Проект Prime</h3>
+                <p class="port-text">Маркетинг</p></a
+              >
+            </li>
+            <li class="portfolio-item">
+              <a href="">
+                <img src="./img/boxes.jpg" width="380" alt="boxes" />
+                <h3  class="portfolio-heading">Проект Boxes</h3>
+                <p  class="port-text">Приложение</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="">
+                <img src="./img/screen.jpg" width="380" alt="screen" />
+                <h3  class="portfolio-heading">Inspiration has no Borders</h3>
+                <p  class="port-text">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="">
+                <img src="./img/img7.jpg" width="380" alt="magazines" />
+                <h3  class="portfolio-heading">Издание Limited Edition</h3>
+                <p  class="port-text">Дизайн</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="">
+                <img src="./img/project-lab.jpg" width="380" alt="project-lab" />
+                <h3  class="portfolio-heading">Проект LAB</h3>
+                <p  class="port-text">Маркетинг</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="">
+                <img src="./img/lap-top.jpg" width="380" alt="lap-top" />
+                <h3  class="portfolio-heading">Growing Business</h3>
+                <p class="port-text">Маркетинг</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        </div>
+      
     </main>
 
     <footer>
