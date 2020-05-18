@@ -24,9 +24,14 @@ var(--main-bg-color)  #FFFFFF;
 }
 
 html {
-    width: 1600px;
+    width: 1200px;
     margin: 0;
     padding: 0;
+}
+
+.page-header {
+  padding-right: 215px;
+  padding-left: 215px;
 }
 
 body {
@@ -218,8 +223,10 @@ letter-spacing: 0.02em;
   padding-right: auto;
 }
 
-footer {
+.footer {
   background: var(--footer-bg-color);
+  padding-left: auto;
+  padding-right: auto;
 }
 
 p {
@@ -257,6 +264,7 @@ ul {
   padding-left: 215px;
 }
 .container {
+  width: 1200px;
   padding-left: 200px;
   padding-right: 200px;
   
