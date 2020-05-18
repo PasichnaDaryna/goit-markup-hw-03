@@ -24,6 +24,7 @@ var(--main-bg-color)  #FFFFFF;
 }
 
 html {
+    width: 1600px;
     margin: 0;
     padding: 0;
 }
