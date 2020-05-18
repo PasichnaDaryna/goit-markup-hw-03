@@ -32,11 +32,12 @@ html {
 .page-header {
   padding-right: 215px;
   padding-left: 215px;
+  width: 1200px;
 }
 
 body {
   font-size: 14px;
-  width: 1600px;
+  width: 1200px;
   background: var(--main-bg-color);
   font-family: Roboto, sans-serif;
 }
@@ -223,11 +224,7 @@ letter-spacing: 0.02em;
   padding-right: auto;
 }
 
-.footer {
-  background: var(--footer-bg-color);
-  padding-left: auto;
-  padding-right: auto;
-}
+
 
 p {
   color: var(--main-txt-color);
@@ -285,22 +282,6 @@ ul {
   text-decoration: none;
   list-style: none;
   justify-content: center;
-  /* display: inline-block; */
-  /* border: 1px solid transparent; */
-  /* border-radius: 6px; */
-  /* margin-left: 200px; */
-  /* width: 380px; */
-  /* height: 294px; */
-
- /*  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
-
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
-  text-decoration: none;
-  text-align: center;
-   */
  }
 
  .list-images .item-image {
@@ -410,10 +391,6 @@ h3 {
   text-transform: uppercase;
 }
 
-.studio-footer {
-  color: var(--main-bg-color);
-}
-
 .address {
   color: var(--main-bg-color);
   font-size: 14px;
@@ -457,10 +434,9 @@ h3 {
 /* portfolio */
 .container-port {
   width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 215px;
+  padding-right: 215px;
+  
 }
 
 .list-buttons {
@@ -475,6 +451,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
 
 }
 
@@ -499,8 +476,9 @@ h3 {
 }
 
 .portfolio-item {
+  display: block;
   width: calc((100% - 60px)/ 3);
-  background-color: tomato;
+
   margin-right: 30px;
   margin-bottom: 30px;
   padding: 0;
@@ -527,6 +505,24 @@ h3 {
   padding-bottom: 20px;
 }
 /* Footer */
+
+.logo-footer {
+  color: var(--primary-white-color);
+}
+.studio-footer {
+  color: var(--hover-focus-color);
+}
+
+.footer {
+  background: var(--footer-bg-color);
+  padding-left: 215px;
+  padding-right: 215px;
+  width: 1200px;
+}
+
+.studio-white {
+  color: var(--main-bg-color);
+}
 .copyright {
   font-style: normal;
   font-weight: normal;
