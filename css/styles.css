@@ -36,6 +36,8 @@ body {
 
 main {
   width: 1200px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 img {
@@ -162,8 +164,6 @@ letter-spacing: 0.02em;
 /* Page header */
 .efect-sol {
     display: inline-block;
-    text-align: center;
-    align-items: center;
     padding-bottom: 56px;
     padding-left: 477px;
     padding-right: 477px;
