@@ -468,9 +468,9 @@ h3 {
 
 .container {
   width: 1200px;
-  padding-left: 215px;
-  padding-right: 215px;
-  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  
   
 }
 
@@ -479,7 +479,7 @@ h3 {
 .list-buttons {
   list-style: none;
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   margin-bottom: 50px;
   
