@@ -255,21 +255,15 @@ ul {
 
   
 .container-studio {
-  width: 1170px;
+  width: 1200px;
   display: block;
   padding-right: 215px; 
   padding-left: 215px; 
 }
-.container {
-  width: 1200px;
-  padding-left: 200px;
-  padding-right: 200px;
-  
-}
+
 
 .container-images {
   display: flex;
-
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
@@ -512,6 +506,11 @@ h3 {
 }
 /* Footer */
 
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo-footer {
   color: var(--primary-white-color);
 }
@@ -535,6 +534,9 @@ h3 {
   font-size: 12px;
   line-height: 2;
   text-align: center;
+  justify-content: center;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
+  display: block;
+  justify-content: baseline;
 }
