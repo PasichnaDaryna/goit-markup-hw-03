@@ -24,7 +24,6 @@ var(--main-bg-color)  #FFFFFF;
 }
 
 html {
-    width: 1200px;
     margin: 0;
     padding: 0;
 }
@@ -180,7 +179,6 @@ letter-spacing: 0.02em;
 
 .order-button {
     display: block;
-    box-sizing: border-box;
     border: 1px solid transparent;
     border-radius: 6px;
     width: 136px;
