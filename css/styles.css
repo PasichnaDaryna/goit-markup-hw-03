@@ -386,27 +386,32 @@ h3 {
   margin-top: 99px;
 }
 
-.subscribe {
-  color: var(--main-bg-color);
-  text-transform: uppercase;
-}
+
 
 .address {
+  display: block;
   color: var(--main-bg-color);
   font-size: 14px;
   font-style: normal;
+  margin-bottom: 9px;
+  margin-top: 10px;
 }
 
 .tel-email {
+  display: block;
   color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
   font-style: normal;
+  margin-bottom: 9px;
 }
 
 .join {
+  display: block;
   color: var(--main-bg-color);
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 21px;
+  margin-top: 56px;
 }
 .portfolio:hover,
 .portfolio:focus,
@@ -510,9 +515,17 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+.footer .logo {
+  margin-bottom: 10px;
+}
 
+.logo-address {
+  padding-top: 56px;
+}
 .logo-footer {
+  display: block;
   color: var(--primary-white-color);
+  margin-top: 56px;
 }
 .studio-footer {
   color: var(--hover-focus-color);
