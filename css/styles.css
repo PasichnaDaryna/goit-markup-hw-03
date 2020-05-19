@@ -331,6 +331,7 @@ margin-right: 0;
   display: block;
   box-sizing: border-box;
   width: calc((100% - 90px) / 3);
+  margin-right: 30px;
 }
 
 .member h3 {
@@ -342,7 +343,7 @@ margin-right: 0;
 }
 
 .member:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .social-list {
@@ -536,6 +537,9 @@ h3 {
   padding-left: 215px;
   padding-right: 215px;
   width: 1200px;
+}
+.social-option:hover {
+  background-color: var(--h123-link-color);
 }
 
 .studio-white {
