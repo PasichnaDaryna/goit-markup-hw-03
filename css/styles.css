@@ -37,6 +37,15 @@ body {
 main {
   width: 1200px;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 /* Page header */
 .logo {
   color: var(--hover-focus-color);
@@ -357,6 +366,10 @@ border-radius: 4px;
 .social-list li {
   margin-right: 23px;
 }
+.social-list:last-child {
+  margin-right: 0px;
+}
+
 .client-list {
   display: flex;
   list-style: none;
@@ -500,6 +513,8 @@ h3 {
   border: 1px solid #EEEEEE;
 }
 
+
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -515,10 +530,7 @@ h3 {
   padding-right: 24px;
 }
 
-.img-1 {
-  display: block;
-  justify-content: center;
-}
+
 
 .port-text {
   padding-right: 24px;
