@@ -6,16 +6,13 @@
 цвет текста в футере (заголовки - color: #FFFFFF;
 цвет имейла и телефона в футере - color: rgba(255, 255, 255, 0.6);
 цвет копирайта color: rgba(255, 255, 255, 0.4);
-
-
 var(--main-bg-color)  #FFFFFF;
  var(--main-txt-color) #757575 ;
-
  */
 
  
 
-:root {
+ :root {
   --main-bg-color: #ffffff;
   --main-txt-color: #757575;
   --h123-link-color: #212121;
@@ -63,10 +60,15 @@ button {
   margin-bottom: 25px;
 }
 /* main nav */
+
+ .container-header {
+  width: 1200px;
+  padding-right: 200px;
+  padding-left: 200px;
+ }
 .main-nav {
   display: flex;
   align-items: center;
-  padding-left: 0;
   
 }
 .studio {
@@ -148,10 +150,8 @@ letter-spacing: 0.02em;
   border-radius: 6px;
   padding: 11px 34px;
   min-width: 130px;
-
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
-
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
@@ -576,9 +576,9 @@ h3 {
 
 .container-footer {
   background: var(--footer-bg-color);
-  padding-left: 215px;
-  padding-right: 215px;
   width: 1200px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 .social-option:hover {
   background-color: var(--h123-link-color);
