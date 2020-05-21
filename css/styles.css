@@ -23,9 +23,15 @@ var(--main-bg-color)  #FFFFFF;
 html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
+  background-color: var(--main-bg-color);
   font-size: 14px;
   background: var(--main-bg-color);
   font-family: Roboto, sans-serif;
@@ -35,6 +41,7 @@ main {
   width: 1200px;
   padding-right: 200px;
   padding-left: 200px;
+  outline: tomato;
 }
 
 img {
@@ -112,9 +119,10 @@ button {
 
 
 .nav-option {
-  display: block;
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
+  outline: solid 2px tomato;
   
 
 }
@@ -164,10 +172,10 @@ letter-spacing: 0.02em;
 /* Page header */
 .efect-sol {
     display: inline-block;
-    padding-bottom: 56px;
-    padding-left: 477px;
-    padding-right: 477px;
-    padding-top: 200px;
+    margin-bottom: 56px;
+    margin-left: 477px;
+    margin-right: 477px;
+    margin-top: 200px;
     width: 646px;
     height: 104px;
 
@@ -187,7 +195,7 @@ letter-spacing: 0.02em;
 
 
 .order-button {
-    display: block;
+    /* display: block; */
     border: 1px solid transparent;
     border-radius: 6px;
     width: 136px;
