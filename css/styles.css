@@ -598,6 +598,7 @@ footer {
 
 .submit {
   background-color: var(--hover-focus-color);
+  border: 1px solid transparent;
 }
 
 
