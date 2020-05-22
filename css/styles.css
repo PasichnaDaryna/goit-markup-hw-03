@@ -37,10 +37,17 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-main {
+.container {
+  margin-left: 215px;
+  margin-right: 215px;
   width: 1200px;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+
+main {
   outline: tomato;
 }
 
@@ -68,16 +75,11 @@ button {
 }
 /* main nav */
 
- .container-header {
-  width: 1200px;
-  padding-right: 200px;
-  padding-left: 200px;
- }
-.main-nav {
+ .main-nav {
   display: flex;
   align-items: center;
   
-}
+} 
 .studio {
   color: #212121;
 
@@ -87,6 +89,7 @@ button {
   display: flex;
   list-style: none;
   margin-left: auto;
+  
 }
 
 .contact-link {
@@ -139,7 +142,9 @@ a {
   margin: 0;
   padding: 0;
 }
-
+.header-contact {
+ display: flex;
+}
 .nav-option {
     font-family: Roboto;
 font-style: normal;
@@ -170,52 +175,41 @@ letter-spacing: 0.02em;
 
 
 /* Page header */
-.efect-sol {
-    display: inline-block;
+.section-hero {
+  text-align: center;
+}
+.hero-title {
     margin-bottom: 56px;
-    margin-left: 477px;
-    margin-right: 477px;
-    margin-top: 200px;
-    width: 646px;
-    height: 104px;
+    margin-top: 0;
 
 
   text-transform: uppercase;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;    
   
   letter-spacing: 0.06em;
   background-color: var(--main-txt-color);
-  outline: var(--hover-focus-color);
   color: var(--main-bg-color);
 }
 
 
 .order-button {
-    /* display: block; */
-    border: 1px solid transparent;
-    border-radius: 6px;
-    width: 136px;
-    height: 30px;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 32px;
-    padding-left: 32px;
-    margin-bottom: 200px;
-    margin-left: 732px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  width: 200px; 
+  height: 50px; 
+  padding: 10px 32px;
+  margin-bottom: 200px;
+  
     
 
-    color: var(--main-bg-color);
-    background: var(--hover-focus-color);
-    border-radius: 4px;
+  color: var(--main-bg-color);
+  background: var(--hover-focus-color);
 
     
     font-size: 16px;
-    text-align: center;
     line-height: 1.87;
     font-weight: bold;
 }
@@ -229,7 +223,7 @@ letter-spacing: 0.02em;
 }
 
 
-.team-section {
+.section-team {
   background: #f5f4fa;
   padding-left: auto;
   padding-right: auto;
@@ -248,6 +242,7 @@ p {
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 .site-nav {
@@ -267,21 +262,13 @@ ul {
   margin-right: 0;
 }
 
-  
-
-
-.container-images {
-  display: flex;
-  
-  
-}
-
 .list-images {
   display: flex;
   flex-wrap: nowrap;
   text-decoration: none;
   list-style: none;
   justify-content: center;
+  background-color: tomato;
  }
 
  .item-image {
@@ -329,16 +316,10 @@ margin-right: 0;
  .section {
    padding-bottom: 94px;
    padding-top: 94px;
-   padding-left: auto;
-   padding-right: auto;
+   
  } 
 
- .section-port{
-  padding-bottom: 94px;
-  padding-top: 94px;
-  padding-left: auto;
-  padding-right: auto;
- }
+
    
 
  .team-list {
@@ -353,7 +334,6 @@ margin-right: 0;
 
 .member {
   display: block;
-  box-sizing: border-box;
   width: calc((100% - 90px) / 3);
   margin-right: 30px;
 
@@ -421,6 +401,11 @@ h3 {
   font-size: 16px;
   line-height: 1.6;
   margin-right: 8px;
+
+  background: #F5F4FA;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px, 22px;
  
 }
 
@@ -476,8 +461,8 @@ h3 {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
   padding-right: 15px;
+  padding-left: 15px
   
   
 }
@@ -560,13 +545,22 @@ h3 {
   padding-bottom: 20px;
 }
 /* Footer */
+footer {
+  background-color: var(--footer-bg-color);
+}
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
-  box-sizing: border-box;
+  justify-content: space-around;
+ 
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
-.footer .logo {
+.logo {
   margin-bottom: 10px;
 }
 
@@ -582,12 +576,6 @@ h3 {
   color: var(--hover-focus-color);
 }
 
-.container-footer {
-  background: var(--footer-bg-color);
-  width: 1200px;
-  padding-right: 200px;
-  padding-left: 200px;
-}
 .social-option:hover {
   background-color: var(--h123-link-color);
 }
@@ -596,16 +584,17 @@ h3 {
   color: var(--main-bg-color);
 }
 .copyright {
-  font-style: normal;
+  display: inline-block;
+  text-align: center;
+  justify-content: baseline;
+   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.4);
-  display: block;
-  justify-content: baseline;
+  line-height: 2; 
+  
+ letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4); 
+  
 }
 
 .submit {
